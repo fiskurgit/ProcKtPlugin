@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="kotlin-non-jvm-source-roots" />
+  </applied-converters>
+  <project-files>
+    <file path="/Users/670m/IdeaProjects/zaqxccv/.idea/codeStyles/Project.xml" timestamp="1572862379000" />
+    <file path="/Users/670m/IdeaProjects/zaqxccv/.idea/codeStyles/codeStyleConfig.xml" timestamp="1572862379000" />
+    <file path="/Users/670m/IdeaProjects/zaqxccv/.idea/encodings.xml" timestamp="1572862377000" />
+    <file path="/Users/670m/IdeaProjects/zaqxccv/.idea/kotlinc.xml" timestamp="1572862379000" />
+    <file path="/Users/670m/IdeaProjects/zaqxccv/.idea/libraries/KotlinJavaRuntime.xml" timestamp="1572862379000" />
+    <file path="/Users/670m/IdeaProjects/zaqxccv/.idea/libraries/org_json.xml" timestamp="1572862379000" />
+    <file path="/Users/670m/IdeaProjects/zaqxccv/.idea/misc.xml" timestamp="1572862379000" />
+    <file path="/Users/670m/IdeaProjects/zaqxccv/.idea/modules.xml" timestamp="1572862379000" />
+    <file path="/Users/670m/IdeaProjects/zaqxccv/.idea/workspace.xml" timestamp="1572862422000" />
+    <file path="/Users/670m/IdeaProjects/zaqxccv/zaqxccv.iml" timestamp="1572862379000" />
+  </project-files>
+</conversion>
+
