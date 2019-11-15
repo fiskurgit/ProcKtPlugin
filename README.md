@@ -2,6 +2,10 @@
 
 A [Jetbrains IDEA](https://www.jetbrains.com/idea) plugin to launch sketches created in [ProcKt](https://github.com/fiskurgit/ProcKtTemplate). It replicates the ⌘-r behaviour in the [Processing IDE](https://processing.org)
 
+## Download
+
+* [Download fisk.prokt-0.0.1.jar](/build/libs/fisk.prockt-0.0.1.jar)
+
 ## Usage
 
 The plugin runs whichever sketch (a class that extends KApplet) has focus in the editor, it lets you quickly see the results of what you're currently coding.
