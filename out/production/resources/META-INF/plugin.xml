@@ -2,25 +2,22 @@
     <id>fisk.prockt.procktplugin</id>
     <name>ProcKt Sketch</name>
 
-    <description>IDEA Plugin for ProcKt Sketch Projects. Work in progress</description>
-    <change-notes>In development, non-functional version. .....</change-notes>
-    <version>0.0.1</version>
+    <description>IDEA Plugin to run ProcKt Sketches (classes that extends KApplet)</description>
+    <change-notes>Work in progress..._____________________</change-notes>
+    <version>0.0.2</version>
     <vendor email="prockt+fiskdebug@gmail.com" url="http://fisksolar.ddns.net">Fisk Solar</vendor>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
     <depends>com.intellij.modules.java</depends>
-
-    <extensions defaultExtensionNs="com.intellij">
-        <projectTemplate id="fisk.procktplugin.template" templatePath=""  />
-        <projectTemplatesFactory implementation="fisk.procktplugin.ProcKtProjectTemplateFactory"/>
-        <framework.type implementation="fisk.procktplugin.ProcKtFramework"/>
-    </extensions>
     <actions>
         <group id="fisk.procktplugin.actions" text="ProcKt" description="ProcKt IDE Integrations">
             <add-to-group group-id="MainMenu" anchor="last"/>
-            <action id="fisk.procktplugin.actions.sketch_run" class="fisk.procktplugin.SketchActions$SketchRunAction" text="Run Sketch" description="Runs current sketch"/>
-            <action id="fisk.procktplugin.actions.sketch_info" class="fisk.procktplugin.SketchActions$SketchInfoAction" text="Sketch Infio" description="Current sketch info"/>
+            <action id="fisk.procktplugin.actions.sketch_run" class="fisk.procktplugin.SketchActions$SketchRunAction" text="Run Sketch" description="Runs current sketch">
+                <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift w"/>
+            </action>
+            <action id="PKt.ProcessingReferenceAction" class="fisk.procktplugin.SketchActions$ProcessingReferenceAction" text="Reference" description="Processing Reference"/>
+            <action id="PKt.ProcessingEnvironmentAction" class="fisk.procktplugin.SketchActions$ProcessingEnvironmentAction" text="Environment" description="Processing Environment"/>
         </group>
     </actions>
 </idea-plugin>

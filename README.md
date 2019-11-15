@@ -17,4 +17,4 @@ The plugin runs whichever sketch (a class that extends KApplet) has focus in the
 
 ![Jetbrains Plugin Panel](images/plugins_screenshot.png)
 
-I had more ambitious plans for this plugin but the Jetbrains Plugin documentation is abysmal and life is short.
+I had more ambitious plans for this but the Jetbrains Plugin documentation is abysmal and life is short.

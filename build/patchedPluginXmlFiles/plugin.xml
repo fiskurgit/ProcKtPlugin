@@ -6,14 +6,14 @@
   <change-notes>
       ProcKt Launcher Plugin&lt;br&gt;
       </change-notes>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <vendor email="prockt+fiskdebug@gmail.com" url="http://fisksolar.ddns.net">Fisk Solar</vendor>
   <depends>com.intellij.modules.java</depends>
   <actions>
     <group id="fisk.procktplugin.actions" text="ProcKt" description="ProcKt IDE Integrations">
       <add-to-group group-id="MainMenu" anchor="last"/>
       <action id="fisk.procktplugin.actions.sketch_run" class="fisk.procktplugin.SketchActions$SketchRunAction" text="Run Sketch" description="Runs current sketch">
-        <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift r"/>
+        <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift w"/>
       </action>
       <action id="PKt.ProcessingReferenceAction" class="fisk.procktplugin.SketchActions$ProcessingReferenceAction" text="Reference" description="Processing Reference"/>
       <action id="PKt.ProcessingEnvironmentAction" class="fisk.procktplugin.SketchActions$ProcessingEnvironmentAction" text="Environment" description="Processing Environment"/>
