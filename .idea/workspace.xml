@@ -1867,7 +1867,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ProcKtPlugin [clean]">
+  <component name="RunManager" selected="Gradle.ProcKtPlugin [buildPlugin]">
     <configuration name="Plugin" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
