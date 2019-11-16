@@ -1,6 +1,6 @@
 # ProcKt Plugin for Jetbrains IDEA
 
-A [Jetbrains IDEA](https://www.jetbrains.com/idea) plugin to launch sketches created in [ProcKt](https://github.com/fiskurgit/ProcKtTemplate). It replicates the `⌘`+`r` behaviour in the [Processing IDE](https://processing.org)
+A [Jetbrains IDEA](https://www.jetbrains.com/idea) plugin to launch sketches created in [ProcKt](https://github.com/fiskurgit/ProcKtTemplate). It replicates the `⌘`+`r` behaviour in the [Processing IDE](https://processing.org) (with a different key combination)
 
 
 ## Download
